@@ -1,0 +1,46 @@
+body{
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+h1{
+    font-family:  Arial, sans-serif;
+    font-size: 50px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px rgb(179, 179, 179) solid;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    color : white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 1px rgb(179, 179, 179) solid;
+}
+button:hover{
+    color : blueviolet;
+    background-color: white;
+    cursor: pointer;
+}
+
+#container{
+    padding: 20px ;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-right: 20%;
+}
+#tasks{
+ background-color: white;
+ margin-right: 20%;
+ border-radius: 5px;
+ padding: 10px;
+}
