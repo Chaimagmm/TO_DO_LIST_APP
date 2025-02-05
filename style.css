@@ -14,8 +14,8 @@ input{
     border: 1px rgb(179, 179, 179) solid;
 }
 
-button{
-    height: 45px;
+#add-btn{
+    height: 48px;
     width: 100px;
     font-family: Arial;
     font-size: 20px;
@@ -25,7 +25,7 @@ button{
     border-radius: 5px;
     border: 1px rgb(179, 179, 179) solid;
 }
-button:hover{
+#add-btn:hover{
     color : blueviolet;
     background-color: white;
     cursor: pointer;
@@ -43,4 +43,19 @@ button:hover{
  margin-right: 20%;
  border-radius: 5px;
  padding: 10px;
+}
+li{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+.delete-btn{
+   
+    margin-left:   auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid rgb(168, 168, 168);
 }
